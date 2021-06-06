@@ -1,0 +1,16 @@
+name: ProHika
+version: 2.0.0
+api-version: 1.16
+main: eu.hikarion.main.Main
+description: Project_Hikarion
+author: AkabeX86
+commands:
+  npc:
+    aliases: [nonplayer]
+    usage: /npc
+    description: Spawns a fucking NPC
+  debug:
+    aliases: [dbg]
+    usage: /debug
+    description: A shitty debugger...
+    
