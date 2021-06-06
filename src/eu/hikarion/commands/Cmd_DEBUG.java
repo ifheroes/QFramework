@@ -9,7 +9,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.craftbukkit.v1_16_R2.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 import eu.hikarion.main.Main;
-import eu.hikarion.utils.Sidebar;
+import eu.hikarion.utils.Tablist;
 import eu.hikarion.utils.Utils;
 import net.minecraft.server.v1_16_R2.PacketPlayOutPlayerInfo;
 import net.minecraft.server.v1_16_R2.PacketPlayOutRespawn;
@@ -43,7 +43,6 @@ public class Cmd_DEBUG implements CommandExecutor{
 				debug_list.add(uuid);
 				Utils.changeSkin(p,"knight");
 				Utils.updateSkin(p);
-				//Sidebar.loadSidebar(p);
 				return true;
 			}
 		}
